@@ -1,12 +1,12 @@
 ## To build image with scratch as base
-`$ docker build -f Dockerfile.scratch -t c-multistage-scratch`
+`$ docker build -f Dockerfile.scratch -t c-multistage-scratch .`
 
 ## To run the container with above image
 `$ docker run --rm c-multistage-scratch:latest`
 
 
 ## To build image with alpine as base
-`$ docker build -f Dockerfile -t c-multistage-alpine`
+`$ docker build -f Dockerfile -t c-multistage-alpine .`
 
 ## To run the container with above image
 `$ docker run --rm c-multistage-alpine:latest`
